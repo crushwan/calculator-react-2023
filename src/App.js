@@ -172,11 +172,11 @@ export default function App() {
 
       <OperationBtn operation="-" dispatch={dispatch} />
 
-      <DigitBtn digit="." dispatch={dispatch} />
+      <DigitBtn style="left" digit="." dispatch={dispatch} />
       <DigitBtn digit="0" dispatch={dispatch} />      
       
       <button
-        className="span-two"
+        className="span-two right"
         onClick={() => dispatch({ type: ACTIONS.EVALUATE })}
       >
         =

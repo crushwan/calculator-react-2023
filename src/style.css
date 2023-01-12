@@ -43,6 +43,8 @@ body {
   padding: 0.7rem;
   word-wrap: break-word;
   word-break: break-all;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 .output .previous-operand {
@@ -54,3 +56,10 @@ body {
   font-size: 2.5rem;
 }
 
+.left {
+  border-bottom-left-radius: 20px;
+}
+
+.right {
+  border-bottom-right-radius: 20px;
+}
